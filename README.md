@@ -4,6 +4,8 @@ This is a sample project to show how to use the slydepay sdk to accept mobile mo
 # PREVIEW
 ----
 
+| Payment Options  | Mobile Money | Visa | Success | Error |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | ![Payment Options](https://github.com/norrisboat/SlydepayAndroidREST/blob/master/Screenshots/payment_optioons.png?raw=true "Payment Options")  | ![Mobile Money](https://github.com/norrisboat/SlydepayAndroidREST/blob/master/Screenshots/mobile_money.png?raw=true "Mobile Money")  | ![Visa](https://github.com/norrisboat/SlydepayAndroidREST/blob/master/Screenshots/visa1.png?raw=true "Visa") | ![success](https://github.com/norrisboat/SlydepayAndroidREST/blob/master/Screenshots/success.png?raw=true "Transaction successful") | ![Error occured](https://github.com/norrisboat/SlydepayAndroidREST/blob/master/Screenshots/error.png?raw=true "Error occured")|
 
 # Skip this if you have an active Merchant Account
