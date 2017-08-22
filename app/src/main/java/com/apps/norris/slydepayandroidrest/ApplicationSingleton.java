@@ -13,6 +13,6 @@ public class ApplicationSingleton extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        new SlydepayPayment(this).initCredentials("dzigbos@gmail.com","1492641173560");
+        new SlydepayPayment(this).initCredentials("MERCHANT_EMAIL","MERCHANT_KEY");
     }
 }
