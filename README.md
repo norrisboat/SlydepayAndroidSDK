@@ -16,17 +16,13 @@ Create a Merchant Account on Slydepay
 Follow the link to get started on that:
 ([Slydepay Merchant Account](https://app.slydepay.com.gh/auth/signup#business_reg))
 
-After the account has been verified and recognised as a Merchant Account.
-Guess what?
-You are good to go. Wait a minute
-
 # How to install
 ---------------------------------------
 To use the sdk in your project:
 
 1. Download the project zip file.
 2. Unzip the file.
-3. In android studio right file -> new - import module and go to the path for the zip file -> open the folder -> and click on paywithmobilemoney.
+3. In android studio right file -> new - import module and go to the path for the zip file -> open the folder -> and click on paywithslydepay.
 4. Change the name of your module if you wish and click next.
 5. Wait till the build finishes and you now have the paywithslydepay sdk.
     
@@ -85,5 +81,5 @@ PayWithSlydepay.Pay("itemName",amount,"description","customerName","customerEmai
 
 # TODO
 * Write tests.
-* Singleton approach
+* Singleton approach.
 
