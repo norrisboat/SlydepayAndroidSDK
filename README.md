@@ -48,8 +48,7 @@ Tap on OK and you are good to add it in your build.gradle file.
 1. Initialize sdk preferably in your Application class to avoid initializing it multiple time. 
 [How to create an Application class](https://github.com/codepath/android_guides/wiki/Understanding-the-Android-Application-Class)
 ```java
-//all parameters are Strings
-//username and password refers to the credentials associated with your merchant account from MTN
+//merchantEmail and merchantKey refers to the credentials associated with your merchant account from MTN
   new SlydepayPayment(YourActivity.this).initCredentials.initCredentials(merchantEmail,merchantKey);
 ```
 
@@ -58,8 +57,8 @@ Tap on OK and you are good to add it in your build.gradle file.
 //Performing transaction with provided ui
 PayWithSlydepay.Pay("itemName",amount,"description","customerName","customerEmail","orderCode","phoneNumber",requestCode);
  
- //Listen for results
-    @Override
+//Listen for results
+@Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
@@ -79,9 +78,10 @@ PayWithSlydepay.Pay("itemName",amount,"description","customerName","customerEmai
         }
     }
 ```
-**You can now recieve payment through your app with Slydepay**
+**You can now recieve payments through your app with Slydepay**
 
 # Special Thanks
+**[@Knesis](https://github.com/Knexis) For his sdk [Slydepay-android-sdk-with-sample](https://github.com/Knexis/Slydepay-android-sdk-with-sample)** 
 
 # TODO
 * Write tests.
