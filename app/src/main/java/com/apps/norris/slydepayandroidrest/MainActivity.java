@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                PayWithSlydepay.Pay(MainActivity.this,"Iphone",1.00,"64 gb gold","Norris Aboagye","norrisboat@gmail.com","","233553311070",PAY_WITH_SLYDEPAY);
+                PayWithSlydepay.Pay(MainActivity.this,"Iphone",0.01,"64 gb gold","Norris Aboagye","client@email.com","","phone_number",PAY_WITH_SLYDEPAY);
             }
         });
 
