@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PayWithSlydepay</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logoImage">Payment option logo</string>
+    <string name="mm_instruction">Please enter your number</string>
+    <string name="visa_loading_message">Select visa in the tab that opens and close the window when you complete the transaction</string>
+    <string name="mm_loading_message">You will receive a bill prompt soon</string>
+    <string name="mm_confirm_message">If you have entered your Mobile Money PIN and payment is successful, click CONFIRM to complete transaction.
+    NB: Wait for confirmation message before you confirm.
+    Cancel if you wish to terminate transaction.</string>
+    <string name="visa_confirm_message">Click confirm to complete transaction.</string>
+    <string name="successful_purchase" formatted="false">You have successfully purchased %s for ¢ %.2f</string>
+</resources>
