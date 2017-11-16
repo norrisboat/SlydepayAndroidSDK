@@ -29,8 +29,6 @@ public class CustomTextView extends android.support.v7.widget.AppCompatTextView{
 
     private void init() {
         if (!isInEditMode()) {
-            Typeface tf = Typeface.createFromAsset(getContext().getAssets(), "fonts/Lato-Regular.ttf");
-            setTypeface(tf);
             setTextColor(getContext().getResources().getColor(R.color.textColor));
         }
     }
