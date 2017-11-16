@@ -44,7 +44,7 @@ Tap on OK and you are good to add it in your build.gradle file.
 1. Initialize sdk preferably in your Application class to avoid initializing it multiple time. 
 [How to create an Application class](https://github.com/codepath/android_guides/wiki/Understanding-the-Android-Application-Class)
 ```java
-//merchantEmail and merchantKey refers to the credentials associated with your merchant account from MTN
+//merchantEmail and merchantKey refers to the credentials associated with your merchant account from SLYDEPAY
   new SlydepayPayment(YourActivity.this).initCredentials.initCredentials(merchantEmail,merchantKey);
 ```
 
