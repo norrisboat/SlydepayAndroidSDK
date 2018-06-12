@@ -13,7 +13,7 @@ public class Constants {
 
     //Payment variables
     public static final String MTN_MOBILE_MONEY="MTN_MONEY";
-    public static final String VISA="ZENITH_VISA";
+    public static final String VISA="VISA";
 
     public static final String NEW="NEW";
     //public static final String PENDING="PENDING";
